@@ -60,6 +60,9 @@ dependencies {
 
 apply plugin: 'maven'
 apply plugin: 'signing'
+//apply plugin: 'com.github.dcendents.android-maven'
+
+//group='com.github.gazialankus'
 
 def isReleaseBuild() {
     return version.contains("SNAPSHOT") == false
